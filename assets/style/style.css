@@ -1,0 +1,127 @@
+.name{
+    font-family: 'Crimson Text', serif;
+    font-size: 80px;
+    padding-left: 30px;
+    padding-right: 30px;
+    color:  #fec89a;
+}
+
+.gallery{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 60px;
+    color: white;
+    text-shadow: 2px 2px #ffd7ba;
+}
+
+.frontpage{
+    border-style: solid;
+    border-color: #fec89a;
+    position: fixed;
+    right: 30%;
+    top: 20%;
+    text-align: center;
+}
+
+.item1{
+    height: 300px;
+    width: 200px;
+    object-fit: cover;
+    position: fixed;
+    top: 65%;
+    right: 62%;
+}
+.item2{
+    height: 300px;
+    width: 200px;
+    object-fit: cover;
+    position: fixed;
+    top: 65%;
+    right: 42%;
+}
+
+.item3{
+    height: 300px;
+    width: 200px;
+    object-fit: cover;
+    position: fixed;
+    top: 65%;
+    right: 22%;
+}
+
+@keyframes Wave{
+	0%{
+		transform: translateY(0px);
+	}
+	50%{
+		transform: translateY(30px);
+	}
+	100%{
+		transform: translateY(0px);
+	}
+}
+.item1{
+    animation: Wave 2s infinite;
+}
+.item2{
+    animation: Wave 2s infinite;
+    animation-delay: 0.25s;
+}
+.item3{
+    animation: Wave 2s infinite;
+    animation-delay: 0.5s;
+}
+
+
+
+
+
+
+
+.title{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    padding-left: 50px;
+    color: white;
+    text-shadow: 2px 2px #ffd7ba;
+}
+
+.cakeitems{
+    font-family: 'Crimson Text', serif;
+    font-size: 20px;
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    padding: 30px;
+}
+
+.cakeitems2{
+    font-family: 'Crimson Text', serif;
+    font-size: 20px;
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    padding: 30px;
+}
+
+.cakes{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.cakeitems{
+    display: flex;
+    flex-direction: column;
+    border: thin solid #ffd7ba;
+}
+.cakes2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.cakeitems2{
+    display: flex;
+    flex-direction: column;
+    border: thin solid #ffd7ba;
+}
