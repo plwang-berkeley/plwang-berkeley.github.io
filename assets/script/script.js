@@ -4,7 +4,7 @@ document.getElementById("cakeTitle").onclick = () => {
     let background = document.getElementById("background")
     if (counter == 0) {
         counter = 1;
-        background.style.backgroundColor = "#EF476F";
+        background.style.backgroundColor = "Ffe5d9";
     } else {
         counter = 0;
         background.style.backgroundColor = "#FFF5ED";
